@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-color: orange;
+}
+
+#main {
+	min-height: 100%;
+	width: 900px;
+	margin: 0 auto;
+	padding-bottom: 170px;
+	background-color: white;
+}
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	height: 100px;
+	width: 600px;
+	margin-top: 10px;
+}
+
+/*.tiplink{
+	border-bottom: 1px dotted Black;
+	cursor: pointer;
+}
+
+.tip{
+	border: 1px Solid Black;
+	background-color: #ffc;
+	font-size: smaller;
+	padding: 2px;
+	position: absolute;
+	display: none;
+}*/
+
+/* 見出し */
+h1 {
+	border-bottom:1px solid #ccc;
+}
+
+h2 {
+	border-left:10px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:0px 0px 0px 10px;
+}
+
+/* 新歓テーブル */
+#shinkan_table {
+	width: 600px;
+	height: 400px;
+	border-collapse: collapse;
+	border: 1px #808080 solid;
+}
+
+#shinkan_table td {
+	border: 1px #808080 solid;
+}
+
+/* 左列 */
+#shinkan_table tr:nth-child(2n-1) td:nth-child(2n-1) {
+	width: 30%;
+	height: 48px;
+	text-align: center;
+	border: 1px #808080 solid;
+}
+
+/* 右列 */
+#shinkan_table tr:nth-child(2n-1) td {
+	width: 70%;
+	height: 24px;
+}
+
+#shinkan_table span {
+	margin-left: 5px;
+}
+
+/* 年間テーブル */
+#nenkan_table {
+	width: 600px;
+	height: 400px;
+	border-collapse: collapse;
+	border: 1px #808080 solid;
+}
+
+#nenkan_table td {
+	border: 1px #808080 solid;
+}
+
+/* 月 */
+.month {
+	width: 20%;
+	text-align: center;
+}
+
+#nenkan_table span {
+	margin-left: 5px;
+}
